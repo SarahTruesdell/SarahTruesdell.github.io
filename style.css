@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300&display=swap');
+
+*{
+    font-family: 'Bitter', serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: PINK;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+header a{
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+    padding: 10px 20px;
+}
+
+a, a:visited, a:active{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-left{
+    float: right;
+    margin-right: 50px;
+}
+
+header a:hover{
+    color: #D5AD6D; /*if no support for background-clip*/
+    background: -webkit-linear-gradient(transparent, transparent),
+    -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;nk;
+}
+
+#home{
+    margin-left: 30px;
+}
+
+h1{
+    font-family: 'Petit Formal Script', cursive;
+    text-align: center;
+    line-height: .5;
+    padding: 50px 50px;
+    margin-top: 30px;
+    color:#D5AD6D; /*if no support for background-clip*/
+    background: -webkit-linear-gradient(transparent, transparent),
+    -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 500%;
+    line-height: 1.5;
+}
+
+hr{
+    color:#D5AD6D; 
+}
+
+h2{
+    font-family:'Bitter', serif;;
+    text-align: center;
+    color: PINK;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+p{
+    text-align: center;
+    color: pink;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 80%;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 50%;
+  }
+
+  #email{
+      color: pink;
+      font-size: 100px;
+      margin-left: 50%;
+      margin-right: 50%;
+      margin-top: 30px;
+      width: 50%;
+}
+
